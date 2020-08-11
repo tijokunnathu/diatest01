@@ -10,7 +10,6 @@ public class ApplicationTest {
     @Test
     public void fibonacci() {
         Application application = new Application();
-
         Assert.assertEquals(2,application.fibonacci(3));
     }
 }

@@ -3,10 +3,14 @@ public class Application {
     public static void main(String[] args) {
 
         System.out.println("Solving the fibonacci test result");
+        Integer limit = 10;
+        for (int i = 0; i < limit; i++) {
+            System.out.print(fibonacci(i) + " ");
+        }
 
     }
 
-    public int fibonacci(int number) {
+    public static int fibonacci(int number) {
         if (number == 0) {
             return 0;
         }
