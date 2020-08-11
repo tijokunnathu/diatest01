@@ -11,6 +11,6 @@ public class ApplicationTest {
     public void fibonacci() {
         Application application = new Application();
 
-        Assert.assertEquals(2,application.fib(3));
+        Assert.assertEquals(2,application.fibonacci(3));
     }
 }
